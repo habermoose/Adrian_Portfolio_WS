@@ -1,0 +1,194 @@
+
+.header, .accent, .footer, #nav-name, #nav-portfolio, #nav-contact {
+    font-family: 'Lobster', sans-serif;
+}
+
+/* NAVBAR ELEMENTS */
+.navbar {
+    /* border: 5px solid blue; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.header {
+    font-size: 1.5rem;
+    color: #333333;
+    /* border: 5px solid black; */
+}
+
+#nav-name {
+    display: flex;
+    flex: 1;
+}
+
+#nav-space {
+    display: flex;
+    flex: 4;
+}
+
+#nav-portfolio {
+    justify-content: flex-end;
+    display: flex;
+    flex: 1;
+}
+
+#nav-contact {
+    justify-content: flex-end;
+    display: flex;
+    flex: 1;
+}
+
+/* BODY ELEMENTS */
+.main{
+    color: #333333;
+    display: flex;
+    flex-direction: columns;
+    height: 70vh;
+    /* border: 5px solid red; */
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    max-width: 480px;
+    /* border: 5px solid purple; */
+}
+
+.title-group {
+    /* border: 5px solid orange; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.title { 
+    font-size: 4rem;
+    /* border: 5px solid green; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.left-half, .right-half {
+    display: flex;
+    flex: 1;
+    /* border: 5px solid yellow; */
+}
+
+.left-half {
+    flex-direction: column;
+    flex: 2;
+}
+
+.right-half {
+    flex-direction: column;
+    flex: 1;
+}
+
+.accent {
+    font-weight: bold;
+    background: linear-gradient(to right top, #0076B8, #B87B2C);   /* creates a gradient as a background for the text  */
+    -webkit-background-clip: text;  /* makes the it only a background for EXACTLY the text  */
+    -webkit-text-fill-color: transparent; /* makes text transparent, so all you see is the clipped background of the text, which is a linear gradient */
+}
+
+#main-img {
+    display: flex;
+    width: 30vw;
+    box-shadow: 10px 10px 20px rgba(122, 122, 122, 0.212);
+    border-radius: 4rem;
+}
+
+
+#middle-img{
+    display: flex;
+    flex: 1;
+    width: 75vw;
+    margin-top: 45px;
+    box-shadow: 10px 10px 20px rgba(122, 122, 122, 0.212);
+    border-radius: 4rem;
+}
+
+/* CONTACTS PAGE */
+.glass{
+    background-image: url("./adrian_art/glass.png");
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: auto;
+    align-self: center; 
+    
+    justify-content: center; 
+    width: 50%;
+    height: 70%;
+    box-shadow: 10px 10px 20px rgba(122, 122, 122, 0.212);
+    border-radius: 4rem;
+
+    /* border: 5px solid mistyrose; */
+}
+
+#contact{
+    display: flex;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+    margin: 10px;
+    /* border: 5px solid blue; */
+}
+
+.contact-directions, .name,  .subject, .info {
+    /* border: 5px solid blue; */
+    margin: auto;
+    width: 50%;
+
+}
+
+.info {
+    height: 30%;
+    justify-content:first baseline ;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+}
+
+/* FOOTER */
+.footer{
+    height: 60px;
+    margin-right: 150px;
+    margin-left: 150px;
+    /* border: 5px solid midnightblue; */
+    font-family: 'Lobster', sans-serif;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footerP, .footerI{
+    height: 60px;
+    /* border: 5px solid mistyrose; */
+    font-family: 'Lobster', sans-serif;
+    width: 390px;
+    display: flex;
+    align-items: center;  /* centers up-down in the box */
+}
+
+.footerP{
+    align-self: flex-end; /* gets it correctly to the right */
+    justify-content: flex-end; /* gets it correctly to the right */
+}
+
+/* .footerI{
+} */
+
+#specialA {
+    font-size: 1.5rem;
+}
